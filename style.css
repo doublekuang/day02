@@ -1,0 +1,29 @@
+div{
+    color: brown;
+    font-size: 40px;
+}
+.left{
+    color: aqua;
+    font-size: 46px;
+}
+#t1{
+    color: aquamarine;
+}
+#t2{
+    border: 1px solid #ccc
+}
+h1#t1{
+    background-color: pink;
+}
+.header li {
+    color: yellow;
+}
+.header > ul{
+    border: 1px solid #ccc;
+}
+.header > ul > li:hover{
+    background-color: blue;
+}
+ul::after{
+    content: "hello"
+}
